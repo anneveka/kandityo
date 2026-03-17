@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber Annan-kandi"] 1773746474.05372 "Annan-kandi.bcf" "Annan-kandi.bbl" "Annan-kandi" 1773746838.55792 0
-  "Annan-kandi.bcf" 1773746837.85306 205560 1fa376b49c6294e2e974dfe7205d11b4 "pdflatex"
-  "Annan-kandi.bib" 1773740540.08985 28475 51b44a472dc8fe8396188c467cb0c358 ""
+["biber Annan-kandi"] 1773750577.16962 "Annan-kandi.bcf" "Annan-kandi.bbl" "Annan-kandi" 1773750904.8262 0
+  "Annan-kandi.bcf" 1773750904.64374 205721 5301fda79934d3d39f9433ec4f8da6ab "pdflatex"
+  "Annan-kandi.bib" 1773750481.0443 32414 23be0d6b316881d2e658b88416a1cad8 ""
   (generated)
   "Annan-kandi.bbl"
   "Annan-kandi.blg"
   (rewritten before read)
-["pdflatex"] 1773746829.90055 "/Users/annakarkkainen/Downloads/ttl-gradu-main/Annan-kandi.tex" "Annan-kandi.pdf" "Annan-kandi" 1773746838.56115 0
-  "/Users/annakarkkainen/Downloads/ttl-gradu-main/Annan-kandi.tex" 1773746828.55208 9044 d57064e3f87d83a53bf09923e980c451 ""
+["pdflatex"] 1773750901.85522 "/Users/annakarkkainen/Downloads/ttl-gradu-main/Annan-kandi.tex" "Annan-kandi.pdf" "Annan-kandi" 1773750904.827 0
+  "/Users/annakarkkainen/Downloads/ttl-gradu-main/Annan-kandi.tex" 1773750901.28755 9637 4424b9e8bf4947942e64932d9c85967b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -137,12 +137,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741450490 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1769081430 3345738 3de503bfba3f51adc839edaf8b4f5174 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Annan-kandi.aux" 1773746837.82462 5635 a27b8999dbc792a1191573472bf60798 "pdflatex"
-  "Annan-kandi.bbl" 1773746479.16065 41304 44f3f1febfc06d17c0b5014a3e8c5aa5 "biber Annan-kandi"
-  "Annan-kandi.out" 1773746837.84557 2386 a15265932beca6379439de1ef2c3d8ad "pdflatex"
-  "Annan-kandi.run.xml" 1773746837.85758 2523 ee7d9bea2072ccccbd496a0928e86ac4 "pdflatex"
-  "Annan-kandi.tex" 1773746828.55208 9044 d57064e3f87d83a53bf09923e980c451 ""
-  "Annan-kandi.toc" 1773746837.86718 1171 e8412d9fe3306e19c89a8c6be53c6b9b "pdflatex"
+  "Annan-kandi.aux" 1773750904.63608 5975 941db7b5df07bbadd32d763d732c01be "pdflatex"
+  "Annan-kandi.bbl" 1773750587.59011 46174 7c53c28e2620ff1c741fc13b6cc518a7 "biber Annan-kandi"
+  "Annan-kandi.out" 1773750904.64182 2386 a15265932beca6379439de1ef2c3d8ad "pdflatex"
+  "Annan-kandi.run.xml" 1773750904.6449 2523 ee7d9bea2072ccccbd496a0928e86ac4 "pdflatex"
+  "Annan-kandi.tex" 1773750901.28755 9637 4424b9e8bf4947942e64932d9c85967b ""
+  "Annan-kandi.toc" 1773750904.64529 1171 3bffa85aa46fcd7de2944515efd4a1cd "pdflatex"
   "gradu3.cls" 1751918915 20131 8bd5de38b191303a1467eb706c022d07 ""
   (generated)
   "Annan-kandi.aux"
