@@ -1,0 +1,782 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{bhatia_exploring_2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f8332c0b336688831c6221a59ae21042}{%
+           family={Bhatia},
+           familyi={B\bibinitperiod},
+           given={Vedant},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f8332c0b336688831c6221a59ae21042}
+      \strng{fullhash}{f8332c0b336688831c6221a59ae21042}
+      \strng{fullhashraw}{f8332c0b336688831c6221a59ae21042}
+      \strng{bibnamehash}{f8332c0b336688831c6221a59ae21042}
+      \strng{authorbibnamehash}{f8332c0b336688831c6221a59ae21042}
+      \strng{authornamehash}{f8332c0b336688831c6221a59ae21042}
+      \strng{authorfullhash}{f8332c0b336688831c6221a59ae21042}
+      \strng{authorfullhashraw}{f8332c0b336688831c6221a59ae21042}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Injuries, particularly those resulting from repetitive strain on the body, pose a significant challenge in athletics, where prevention has traditionally relied on historical data and human expertise. Existing methods for injury prevention have struggled to achieve higher precision in practice. However, technological advancements now enable artificial intelligence (AI) and machine learning (ML) to emerge as promising tools for enhancing both injury mitigation and rehabilitation strategies. This article provides a detailed overview of recent ML advances applied to sports injury prediction and prevention. A comprehensive literature review was conducted using databases such as PubMed/Medline, IEEE/IET, and Science Direct, with additional resources from Ovid Discovery and Google Scholar, including a grey literature search. Focus was placed on studies published between 2017 and 2022, examining algorithms including K-Nearest Neighbor (KNN), K-means, decision trees, random forest, gradient boosting, AdaBoost, and neural networks. A total of 42 original research papers were reviewed and their findings summarized. While the current lack of open-source, standardized datasets and the reliance on dated regression models limit strong conclusions about ML’s real-world efficacy in sports injury prediction, addressing these challenges could enable the deployment of advanced ML architectures, thereby accelerating progress in this field and supporting the development of validated clinical tools.}
+      \field{issn}{23219653}
+      \field{journaltitle}{International Journal for Research in Applied Science and Engineering Technology}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Exploring {Machine} {Learning} {Applications} in {Sports} {Injury} {Prediction} {Analysis}}
+      \field{urlday}{23}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1300\bibrangedash 1307}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.22214/ijraset.2024.64850
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/annakarkkainen/Zotero/storage/5YC4T2VS/Bhatia - 2024 - Exploring Machine Learning Applications in Sports Injury Prediction Analysis.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ijraset.com/best-journal/exploring-machine-learning-applications-in-sports-injury-prediction-analysis
+      \endverb
+      \verb{url}
+      \verb https://www.ijraset.com/best-journal/exploring-machine-learning-applications-in-sports-injury-prediction-analysis
+      \endverb
+    \endentry
+    \entry{black_introduction_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f1afb9677b421a8a9b0f22828eea2da5}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Jason\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83739f696a531db3653ef558348dab34}{%
+           family={Kueper},
+           familyi={K\bibinitperiod},
+           given={Jacqueline\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e341b45b58c29943a97ffd58878c827}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Tyler\bibnamedelima S},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{67186cf63c20d6bc86341a5594c6106b}
+      \strng{fullhash}{67186cf63c20d6bc86341a5594c6106b}
+      \strng{fullhashraw}{67186cf63c20d6bc86341a5594c6106b}
+      \strng{bibnamehash}{67186cf63c20d6bc86341a5594c6106b}
+      \strng{authorbibnamehash}{67186cf63c20d6bc86341a5594c6106b}
+      \strng{authornamehash}{67186cf63c20d6bc86341a5594c6106b}
+      \strng{authorfullhash}{67186cf63c20d6bc86341a5594c6106b}
+      \strng{authorfullhashraw}{67186cf63c20d6bc86341a5594c6106b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Classification and prediction tasks are common in health research. With the increasing availability of vast health data repositories (e.g. electronic medical record databases) and advances in computing power, traditional statistical approaches are being augmented or replaced with machine learning (ML) approaches to classify and predict health outcomes. ML describes the automated process of identifying (“learning”) patterns in data to perform tasks. Developing an ML model includes selecting between many ML models (e.g. decision trees, support vector machines, neural networks); model specifications such as hyperparameter tuning; and evaluation of model performance. This process is conducted repeatedly to find the model and corresponding specifications that optimize some measure of model performance. ML models can make more accurate classifications and predictions than their statistical counterparts and confer greater flexibility when modelling unstructured data or interactions between covariates; however, many ML models require larger sample sizes to achieve good classification or predictive performance and have been criticized as “black box” for their poor transparency and interpretability. ML holds potential in family medicine for risk profiling of patients’ disease risk and clinical decision support to present additional information at times of uncertainty or high demand. In the future, ML approaches are positioned to become commonplace in family medicine. As such, it is important to understand the objectives that can be addressed using ML approaches and the associated techniques and limitations. This article provides a brief introduction into the use of ML approaches for classification and prediction tasks in family medicine.}
+      \field{issn}{1460-2229}
+      \field{journaltitle}{Family Practice}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{An introduction to machine learning for classification and prediction}
+      \field{urlday}{6}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{200\bibrangedash 204}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/fampra/cmac104
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/annakarkkainen/Zotero/storage/G4Y6LXTA/cmac104.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/fampra/cmac104
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/fampra/cmac104
+      \endverb
+    \endentry
+    \entry{breiman_random_2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=132b7100417675d55d5d4d8b244f7a34}{%
+           family={Breiman},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{fullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{bibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorbibnamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authornamehash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhash}{132b7100417675d55d5d4d8b244f7a34}
+      \strng{authorfullhashraw}{132b7100417675d55d5d4d8b244f7a34}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund \& R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148–156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression.}
+      \field{issn}{1573-0565}
+      \field{journaltitle}{Machine Learning}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{Random {Forests}}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{45}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 32}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1023/A:1010933404324
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/SC3ILQ8A/Breiman - 2001 - Random Forests.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1010933404324
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1010933404324
+      \endverb
+      \keyw{classification,ensemble,regression}
+    \endentry
+    \entry{brenner_overuse_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ab632c755dfa274c62aa6927abe71bf2}{%
+           family={Brenner},
+           familyi={B\bibinitperiod},
+           given={Joel\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d555a124d3361b5eea9b7ee5d6586e50}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=314b94dc2671a2d5ddd8a2da6c5c0449}{%
+           family={{COUNCIL ON SPORTS MEDICINE AND FITNESS}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9af224cf797e656bbb2db969a9eb10e}
+      \strng{fullhash}{c9af224cf797e656bbb2db969a9eb10e}
+      \strng{fullhashraw}{c9af224cf797e656bbb2db969a9eb10e}
+      \strng{bibnamehash}{c9af224cf797e656bbb2db969a9eb10e}
+      \strng{authorbibnamehash}{c9af224cf797e656bbb2db969a9eb10e}
+      \strng{authornamehash}{c9af224cf797e656bbb2db969a9eb10e}
+      \strng{authorfullhash}{c9af224cf797e656bbb2db969a9eb10e}
+      \strng{authorfullhashraw}{c9af224cf797e656bbb2db969a9eb10e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Sports participation can have tremendous physical and mental health benefits for children. Properly implemented progressive training programs can yield a broad range of beneficial physiologic adaptations, but imbalances of training load and recovery can have important negative consequences. Overuse injuries, for example, can result from repetitive stress without sufficient recovery that leads to accumulated musculoskeletal damage. In addition, extended periods of increased training loads that exceed the intervening recovery can have systemic consequences such as overtraining syndrome, which results in decreased performance, increased injury and illness risk, and derangement of endocrine, neurologic, cardiovascular, and psychological systems. Burnout represents one of the primary reasons for attrition in youth sports. Broadly defined as physical or mental exhaustion and a reduced sense of accomplishment that leads to devaluation of sport, burnout represents a direct threat to the goal of lifelong physical activity and the wide-ranging health benefits that it provides. This clinical report is intended to provide pediatricians with information regarding the risk factors, diagnosis, management, and prevention of these conditions to assist in the identification of at-risk children, the treatment of young athletes, and the guidance of families in the promotion of safe and healthy sport participation.}
+      \field{issn}{0031-4005}
+      \field{journaltitle}{Pediatrics}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Overuse {Injuries}, {Overtraining}, and {Burnout} in {Young} {Athletes}}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{153}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e2023065129}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1542/peds.2023-065129
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/D6DU7MGJ/Brenner ym. - 2024 - Overuse Injuries, Overtraining, and Burnout in Young Athletes.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1542/peds.2023-065129
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1542/peds.2023-065129
+      \endverb
+    \endentry
+    \entry{difiori_overuse_2014}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=720d7ca4f2917ea20a09fb076629b48d}{%
+           family={DiFiori},
+           familyi={D\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3919d092c0dc0dc3e4cae0dd0ee006ff}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Holly\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab632c755dfa274c62aa6927abe71bf2}{%
+           family={Brenner},
+           familyi={B\bibinitperiod},
+           given={Joel\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95c55cecfa1a055a4c8fcfdcdc38bc0c}{%
+           family={Gregory},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00ce3b5645d0efbb7b6cd8c5f1a398c6}{%
+           family={Jayanthi},
+           familyi={J\bibinitperiod},
+           given={Neeru},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1606d689085f949b7fb093375c5d4045}{%
+           family={Landry},
+           familyi={L\bibinitperiod},
+           given={Greg\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=027eaae4f537b0a7bf7c587a2039c607}{%
+           family={Luke},
+           familyi={L\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{3}{%
+        {BMJ Publishing Group Ltd}%
+        {British Association of Sport}%
+        {Exercise Medicine}%
+      }
+      \strng{namehash}{e088eab44dcd351449ddafca581257f5}
+      \strng{fullhash}{3a4d0d6fbef681299f40337ee2d0253c}
+      \strng{fullhashraw}{3a4d0d6fbef681299f40337ee2d0253c}
+      \strng{bibnamehash}{3a4d0d6fbef681299f40337ee2d0253c}
+      \strng{authorbibnamehash}{3a4d0d6fbef681299f40337ee2d0253c}
+      \strng{authornamehash}{e088eab44dcd351449ddafca581257f5}
+      \strng{authorfullhash}{3a4d0d6fbef681299f40337ee2d0253c}
+      \strng{authorfullhashraw}{3a4d0d6fbef681299f40337ee2d0253c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{\#\#\# Background Youth sport participation offers many benefits including the development of self-esteem, peer socialisation and general fitness. However, an emphasis on competitive success, often driven by goals of elite-level travel team selection, collegiate scholarships, Olympic and National team membership and even professional contracts, has seemingly become widespread. This has resulted in an increased pressure to begin high-intensity training at young ages. Such an excessive focus on early intensive training and competition at young ages rather than skill development can lead to overuse injury and burnout. \#\#\# Purpose To provide a systematic, evidenced-based review that will (1) assist clinicians in recognising young athletes at risk for overuse injuries and burnout; (2)delineate the risk factors and injuries that are unique to the skeletally immature young athlete; (3) describe specific high-risk overuse injuries that present management challenges and/or can lead to long-term health consequences; (4) summarise the risk factors and symptoms associated with burnout in young athletes; (5)provide recommendations on overuse injury prevention. \#\#\# Methodology Medical Subject Headings (MeSHs) and text words were searched on 26 March 2012 from MEDLINE, CINAHL and PsycINFO. The search yielded 953 unique articles. Additional articles were found using cross-referencing. The process was repeated on 10 July 2013 to review any new articles since the original search. Screening by the authors yielded a total of 208 relevant sources that were used for this article. Recommendations were classified using the Strength of Recommendation Taxonomy (SORT) grading system. \#\#\# Definition of overuse injury	Overuse injuries occur due to repetitive submaximal loading of the musculoskeletal system when rest is not adequate to allow for structural adaptation to take place. Injury can involve the muscle-tendon unit, bone, bursa, neurovascular structures and the physis. Overuse injuries unique to young athletes include apophyseal injuries and physeal stress injuries. \#\#\# Epidemiology It is estimated that 27 million US youth between 6 and 18 years of age participate in …}
+      \field{chapter}{Consensus statement}
+      \field{issn}{0306-3674, 1473-0480}
+      \field{journaltitle}{British Journal of Sports Medicine}
+      \field{month}{2}
+      \field{number}{4}
+      \field{shorttitle}{Overuse injuries and burnout in youth sports}
+      \field{title}{Overuse injuries and burnout in youth sports: a position statement from the {American} {Medical} {Society} for {Sports} {Medicine}}
+      \field{urlday}{10}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{48}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{287\bibrangedash 288}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1136/bjsports-2013-093299
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/SY55BP5S/DiFiori ym. - 2014 - Overuse injuries and burnout in youth sports a position statement from the American Medical Society.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://bjsm.bmj.com/content/48/4/287
+      \endverb
+      \verb{url}
+      \verb https://bjsm.bmj.com/content/48/4/287
+      \endverb
+      \keyw{Children's injuries,Injury Prevention,Overtraining and burnout issues}
+    \endentry
+    \entry{johnson_overuse_2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78c459f2f738837db3e889e1b820f422}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{78c459f2f738837db3e889e1b820f422}
+      \strng{fullhash}{78c459f2f738837db3e889e1b820f422}
+      \strng{fullhashraw}{78c459f2f738837db3e889e1b820f422}
+      \strng{bibnamehash}{78c459f2f738837db3e889e1b820f422}
+      \strng{authorbibnamehash}{78c459f2f738837db3e889e1b820f422}
+      \strng{authornamehash}{78c459f2f738837db3e889e1b820f422}
+      \strng{authorfullhash}{78c459f2f738837db3e889e1b820f422}
+      \strng{authorfullhashraw}{78c459f2f738837db3e889e1b820f422}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{THE FREQUENCY OF OVERUSE INJURIES IN CHILDREN HAS INCREASED IN RECENT YEARS. INCREASED INTEREST IN SPORTS AS WELL AS THE INCREASE IN SPORTS SPECIALIZATION BY CHILDREN IS ONE CAUSE. EXTRINSIC AND INTRINSIC FACTORS PREDISPOSE AN INDIVIDUAL TO OVERUSE INJURIES, BUT ONE SYSTEMATIC CAUSE IS IMPROPER TRAINING. OVERUSE INJURIES RESULT FROM REPEATED SUBMAXIMAL STRESS FOLLOWED BY INADEQUATE RECOVERY. CHILDREN INCUR SPECIFIC OVERUSE INJURIES AS THE RESULT OF GROWTH. STRATEGIES FOR PREVENTING OVERUSE INJURIES INCLUDE (A) THE USE OF VARIED PRACTICE TO REDUCE JOINT STRESS AND ENHANCE LEARNING, (B) PLANNED REST, (C) GRADUAL PROGRESSION, AND (D) CROSS-TRAINING.}
+      \field{issn}{1524-1602}
+      \field{journaltitle}{Strength \& Conditioning Journal}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shorttitle}{Overuse {Injuries} in {Young} {Athletes}}
+      \field{title}{Overuse {Injuries} in {Young} {Athletes}: {Cause} and {Prevention}}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{27}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1519/SSC.0b013e31816a21cb
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/annakarkkainen/Zotero/storage/PAZ9E4BT/overuse_injuries_in_young_athletes__cause_and.3.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.lww.com/nsca-scj/fulltext/2008/04000/overuse_injuries_in_young_athletes__cause_and.3.aspx
+      \endverb
+      \verb{url}
+      \verb https://journals.lww.com/nsca-scj/fulltext/2008/04000/overuse_injuries_in_young_athletes__cause_and.3.aspx
+      \endverb
+    \endentry
+    \entry{de_leeuw_personalized_2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9245dbd69b9bf6b2ac0384ab91fd48d0}{%
+           family={Leeuw},
+           familyi={L\bibinitperiod},
+           given={Arie-Willem},
+           giveni={A\bibinithyphendelim W\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=0982eca652e51a257214bb19735a0709}{%
+           family={Zwaard},
+           familyi={Z\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=2887ffdd1913ad5a4ca92867e3d95e08}{%
+           family={Baar},
+           familyi={B\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=034df0b322c67076438555401b795f83}{%
+           family={Knobbe},
+           familyi={K\bibinitperiod},
+           given={Arno},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{59f991a4746481fbd9eae81deaab038e}
+      \strng{fullhash}{7aa3f5fecbdb86c1ff6662650cd6e95a}
+      \strng{fullhashraw}{7aa3f5fecbdb86c1ff6662650cd6e95a}
+      \strng{bibnamehash}{7aa3f5fecbdb86c1ff6662650cd6e95a}
+      \strng{authorbibnamehash}{7aa3f5fecbdb86c1ff6662650cd6e95a}
+      \strng{authornamehash}{59f991a4746481fbd9eae81deaab038e}
+      \strng{authorfullhash}{7aa3f5fecbdb86c1ff6662650cd6e95a}
+      \strng{authorfullhashraw}{7aa3f5fecbdb86c1ff6662650cd6e95a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{We implemented a machine learning approach to investigate individual indicators of training load and wellness that may predict the emergence or development of overuse injuries in professional volleyball. In this retrospective study, we collected data of 14 elite volleyball players (mean ± SD age: 27 ± 3 years, weight: 90.5 ± 6.3 kg, height: 1.97 ± 0.07 m) during 24 weeks of the 2018 international season. Physical load was tracked by manually logging the performed physical activities and by capturing the jump load using wearable devices. On a daily basis, the athletes answered questions about their wellness, and overuse complaints were monitored via the Oslo Sports Trauma Research Center (OSTRC) questionnaire. Based on training load and wellness indicators, we identified subgroups of days with increased injury risk for each volleyball player using the machine learning technique Subgroup Discovery. For most players and facets of overuse injuries (such as reduced sports participation), we have identified personalized training load and wellness variables that are significantly related to overuse issues. We demonstrate that the emergence and development of overuse injuries can be better understood using daily monitoring, taking into account interactions between training load and wellness indicators, and by applying a personalized approach. Highlights With detailed, athlete-specific monitoring of overuse complaints and training load, practical insights in the development of overuse injuries can be obtained in a player-specific fashion contributing to injury prevention in sports. A multi-dimensional and personalized approach that includes interactions between training load variables significantly increases the understanding of overuse issues on a personal basis. Jump load is an important predictor for overuse injuries in volleyball.}
+      \field{issn}{1536-7290}
+      \field{journaltitle}{European Journal of Sport Science}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1080/17461391.2021.1887369}
+      \field{number}{4}
+      \field{title}{Personalized machine learning approach to injury monitoring in elite volleyball players}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{511\bibrangedash 520}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/17461391.2021.1887369
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/SAMFTWWT/de Leeuw ym. - 2022 - Personalized machine learning approach to injury monitoring in elite volleyball players.pdf:application/pdf;Snapshot:/Users/annakarkkainen/Zotero/storage/LYJT8VMV/17461391.2021.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1080/17461391.2021.1887369
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1080/17461391.2021.1887369
+      \endverb
+      \keyw{Injury,machine learning,personalization,training load,volleyball}
+    \endentry
+    \entry{murugan_comparison_2025}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=7246921dc9091a351876a92811e8bfec}{%
+           family={Murugan},
+           familyi={M\bibinitperiod},
+           given={Suganiya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fefd4cf65715a1f86c39d873413c9614}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi Pradeep},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ded798154b12f6af1e5cfe58a7f13748}{%
+           family={G},
+           familyi={G\bibinitperiod},
+           given={Kalaiarasi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1f2df5888b700ab77e895d1983a51a5}{%
+           family={Saritha},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47368db45be2493940023cc29ebf73ea}{%
+           family={Rubini},
+           familyi={R\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9ecc169cb6514169e43144718cea267c}
+      \strng{fullhash}{70e51210982d97788c0bd75a1c740ae0}
+      \strng{fullhashraw}{70e51210982d97788c0bd75a1c740ae0}
+      \strng{bibnamehash}{70e51210982d97788c0bd75a1c740ae0}
+      \strng{authorbibnamehash}{70e51210982d97788c0bd75a1c740ae0}
+      \strng{authornamehash}{9ecc169cb6514169e43144718cea267c}
+      \strng{authorfullhash}{70e51210982d97788c0bd75a1c740ae0}
+      \strng{authorfullhashraw}{70e51210982d97788c0bd75a1c740ae0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Running is a favoured exercise for millions, but it carries a risk of musculoskeletal injuries, particularly to the lower extremities. Identifying and predicting potential injuries is crucial for prevention. This study explores the use of machine learning techniques to predict injuries among runners, leveraging data on demographics, running habits, health conditions, and previous injuries. Using models like Random Forest, K-Nearest Neighbours, Decision Trees, and Logistic Regression, the study examines the relevance of various attributes and assesses the predictive power of these models. Remarkably, our model achieved an impressive accuracy of over 99\%, setting a new benchmark for predictive precision in injury prevention. Visualizations provide insight into attribute interactions and their influence on injury risk, facilitating the development of targeted prevention strategies.}
+      \field{booktitle}{2025 {International} {Conference} on {Visual} {Analytics} and {Data} {Visualization} ({ICVADV})}
+      \field{month}{3}
+      \field{title}{Comparison of {Machine} {Learning} {Models} for {Injury} {Prediction} in {Athletes}}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{107\bibrangedash 112}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICVADV63329.2025.10961380
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/PURBYBT5/Murugan ym. - 2025 - Comparison of Machine Learning Models for Injury Prediction in Athletes.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10961380
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10961380
+      \endverb
+      \keyw{Wearable sensors,Analysis,Classification,Data visualization,Injuries,Injury Prediction,KNN,Logistic regression,Logistic Regression,Machine learning,Measurement,Predictive models,Prevention and mitigation,Random Forest,Random forests,Training}
+    \endentry
+    \entry{singh_machine_2021}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dd7e817ef08f3c7505b7f8cae299cf22}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Soni},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=763dd0820e27244c3fd9f5abdd05ebab}{%
+           family={Ramkumar},
+           familyi={R\bibinitperiod},
+           given={K\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2de55826c0e00b1c275ae72ad995d6c9}{%
+           family={Kukkar},
+           familyi={K\bibinitperiod},
+           given={Ashima},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \strng{fullhash}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \strng{fullhashraw}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \strng{bibnamehash}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \strng{authorbibnamehash}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \strng{authornamehash}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \strng{authorfullhash}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \strng{authorfullhashraw}{257653ebe8c5c8cbf0f348d84080b5ed}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Machine learning (ML) is a type of study that allows system how to perform operation by providing multiple examples of how they should be done. ML is used to allow that how we build our computer programs that helps in automatic improvement with their past experiences. In today’s time Machine Learning plays a vital role in many fields like medical, gaming, robotics and many more industries. By using ML algorithm, we can generate many prediction models which helps in providing better solution in many fields. We can predict result in very less time and also, we can improve our result by improving our prediction models. Machine Learning is used for solving many problems. In data mining it became an essential technique for solving problems in areas. In future Machine Learning could be an essential part in every industry as it is vastly used in many industries. Machine Learning is a method which helps in predicting the future or categorized data to help people in making essential decisions. Machine Learning uses advance models-based algorithm for prediction. These models include predictive models and neural network-based models that are uses for systems to take necessary decisions. Machine Learning is usable in many industries like sales and marketing, medical sector, healthcare diagnosis, manufacturing, finance, and several other fields. In today’s era Machine Learning plays a vital role in modern industry to make our system more intelligent.}
+      \field{booktitle}{2021 2nd {Global} {Conference} for {Advancement} in {Technology} ({GCAT})}
+      \field{month}{10}
+      \field{title}{Machine {Learning} {Techniques} and {Implementation} of {Different} {ML} {Algorithms}}
+      \field{urlday}{3}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/GCAT52182.2021.9586806
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/ALRNPBF6/Singh ym. - 2021 - Machine Learning Techniques and Implementation of Different ML Algorithms.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9586806/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9586806/
+      \endverb
+      \keyw{Data models,Implementation of ML algorithm in different classification method.,Industries,Machine learning,Machine learning algorithms,ML,ML Types,Prediction algorithms,Predictive models,Service robots}
+    \endentry
+    \entry{weerasinghe_computer_2016}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0103620e98090b7b88b5efd364631f8b}{%
+           family={Weerasinghe},
+           familyi={W\bibinitperiod},
+           given={Maheshya},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27436b98dfbfd0de07cc432c5704f1f8}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={G.\bibnamedelimi K.\bibnamedelimi A},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13b0ee7d9bb865d64d22a65ce5b53e5a}{%
+           family={Dharmaratne},
+           familyi={D\bibinitperiod},
+           given={Anuja},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87c0353347c79ac4546aa38b8130fad5}{%
+           family={Sandaruwan},
+           familyi={S\bibinitperiod},
+           given={Damitha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fd629db7778309a0b2aba2a7a85bd84}{%
+           family={Nisansala},
+           familyi={N\bibinitperiod},
+           given={Aruni},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b38b4f8a6506f7e07ee0619246753307}{%
+           family={Keppitiyagama},
+           familyi={K\bibinitperiod},
+           given={Chamath},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcb404169d7c24e6b940bfb87e2b61a9}{%
+           family={Kodikara},
+           familyi={K\bibinitperiod},
+           given={Nihal},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{539e452799dc5d4632e526651bc86b5d}
+      \strng{fullhash}{3f637b183d2f7f4ed76d6a65fcb099d7}
+      \strng{fullhashraw}{3f637b183d2f7f4ed76d6a65fcb099d7}
+      \strng{bibnamehash}{3f637b183d2f7f4ed76d6a65fcb099d7}
+      \strng{authorbibnamehash}{3f637b183d2f7f4ed76d6a65fcb099d7}
+      \strng{authornamehash}{539e452799dc5d4632e526651bc86b5d}
+      \strng{authorfullhash}{3f637b183d2f7f4ed76d6a65fcb099d7}
+      \strng{authorfullhashraw}{3f637b183d2f7f4ed76d6a65fcb099d7}
+      \field{sortinit}{W}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Practicing and playing a sport causes athletes' bodies to adapt to the movements they regularly perform. Unfortunately, this can cause muscle imbalances, which might impair performance or worse, cause an injury. It is always best to find the root cause of a muscle imbalance, and to make a precise effort to fix it. Muscle imbalance shouldn't be taken lightly-it could create bigger problems, from posture to spinal positioning, which can ultimately lead to issues in walking, sitting and even lying down, as time progresses. However, muscle imbalances can't be easily evaluated using X-rays, CT scans, or other high-tech devices. But it's possible to address the problem in other ways. In general, the "strong" muscle is measured against the "weaker" muscle. Using the infrared (IR) camera, Kinect can recognize users and track their skeletons in the field of view of the sensor. Kinect sensor can locate the joints of the tracked users in space and track their movements over time. This allows Kinect sensor to recognize people (postures) and follow their actions (movements). Hence, the primary aim of this research is to investigate patterns of muscle imbalance among athletes and evaluate those patterns based on the posture, balance, gait and movement variations using Kinect sensor. Ideally the expected outcome of this research would be a physically meaningful \&amp; robust method to identify the muscle imbalance of an athlete.}
+      \field{booktitle}{Proceedings of the 2nd {International} {Conference} on {Communication} and {Information} {Processing}}
+      \field{isbn}{978-1-4503-4819-5}
+      \field{month}{11}
+      \field{series}{{ICCIP} '16}
+      \field{title}{Computer aid assessment of muscular imbalance for preventing overuse injuries in athletes}
+      \field{urlday}{9}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{244\bibrangedash 248}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1145/3018009.3018023
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/Z3NY8URK/Weerasinghe ym. - 2016 - Computer aid assessment of muscular imbalance for preventing overuse injuries in athletes.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/10.1145/3018009.3018023
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3018009.3018023
+      \endverb
+    \endentry
+    \entry{yuan_machine_2026}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=704c94bf4ff2f3b98d56a4a0a19bcaa4}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fccab3518dbeb8c783813bf16db86735}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Quanwen},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d349f6f2639523959c27229e593343ab}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Anjie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c81656c924858824dfb10d50423b77a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc20e54573d2db853852f86802ab83de}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c7adda07ed796ba60eeb79bb377c25d7}
+      \strng{fullhash}{64f42e9294d68b8d7ebc3ef1928eb4b2}
+      \strng{fullhashraw}{64f42e9294d68b8d7ebc3ef1928eb4b2}
+      \strng{bibnamehash}{64f42e9294d68b8d7ebc3ef1928eb4b2}
+      \strng{authorbibnamehash}{64f42e9294d68b8d7ebc3ef1928eb4b2}
+      \strng{authornamehash}{c7adda07ed796ba60eeb79bb377c25d7}
+      \strng{authorfullhash}{64f42e9294d68b8d7ebc3ef1928eb4b2}
+      \strng{authorfullhashraw}{64f42e9294d68b8d7ebc3ef1928eb4b2}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{abstract}{Machine Learning Applications in Non-Contact Lower Limb Sports Injury Prediction: A Systematic Review}
+      \field{journaltitle}{Journal of Sports Science and Medicine}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shorttitle}{Machine {Learning} {Applications} in {Non}-{Contact} {Lower} {Limb} {Sports} {Injury} {Prediction}}
+      \field{title}{Machine {Learning} {Applications} in {Non}-{Contact} {Lower} {Limb} {Sports} {Injury} {Prediction}: {A} {Systematic} {Review}}
+      \field{urlday}{13}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{25}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{172\bibrangedash 194}
+      \range{pages}{23}
+      \verb{file}
+      \verb Full Text PDF:/Users/annakarkkainen/Zotero/storage/V642L33I/Yuan ym. - 2026 - Machine Learning Applications in Non-Contact Lower Limb Sports Injury Prediction A Systematic Revie.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jssm.org/jssm-25-172.xml-Fulltext
+      \endverb
+      \verb{url}
+      \verb https://www.jssm.org/jssm-25-172.xml-Fulltext
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

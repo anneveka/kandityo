@@ -12,6 +12,8 @@
 
 \usepackage{booktabs} % hyvä kauniiden taulukoiden tekemiseen
 
+\usepackage{longtable}
+
 % HUOM! Tämän tulee olla viimeinen \usepackage koko dokumentissa!
 \usepackage[bookmarksopen,bookmarksnumbered,linktocpage]{hyperref}
 
@@ -20,15 +22,15 @@
 \begin{document}
 
 \title{Koneoppimismallien hyödyntäminen urheilijoiden rasitusvammojen ennustamisessa}
-\translatedtitle{in english}
+\translatedtitle{Utilizing Machine Learning Models for Predicting Overuse Injuries in Athletes}
 %\studyline{Kaikki opintosuunnat}
 \avainsanat{rasitusvammat, koneoppimismallit, ennustaminen}
 \keywords{overuse injuries, machine learning, prediction}
 \tiivistelma{%
-  
+
 }
 \abstract{%
-  
+
 }
 
 \author{Anna Eveliina Kärkkäinen}
@@ -59,17 +61,21 @@ Koneoppimisen ala on kasvussa jatkuvasti ja sen mukana myös laskentateho parane
 hyödyntäminen on lisääntynyt eri tieteenaloilla, mukaan lukien urheilulääketieteessä \parencite{bhatia_exploring_2024}. Kasvava huolenaihe on 
 nuorten rasitusvammojen yleistyminen, sillä nuorten urheilu on muuttunut yhä kilpailullisemmaksi \parencite{difiori_overuse_2014}. 
 
-Tässä kandidaatintutkielmassa syvennytään aiheeseen kuinka rasitusvammat syntyvät ja kuinka niitä voidaan ennustaa koneoppimismallien avulla.
+Tässä kandidaatintutkielmassa syvennytään aiheeseen kuinka rasitusvammat syntyvät ja mitä koneoppimisalgoritmeja käytetään niiden ennustamiseen.
 Koneoppimismalleja hyödynnetään jatkuvasti erilaisissa ennustamista vaativissa tehtävissä. Tarkoituksena onkin ottaa selvää, kuinka urheilijalta 
 kerättyä dataa voidaan muuntaa ja hyödyntää koneoppimismalleille sopivaksi. Tarkempana näkökulmana on juuri nuorten yleistyneet rasitusvammat ja niiden ennustaminen.
 
 Aiheesta suoraan ei ole kovinkaan paljoa tutkimusta, joten tutkimuskysys on ajankohtainen ja mielenkiintoinen. Tutkielman tarkoituksen on siis koota erilaisia artikkeleita ja 
 tutkimuksia yhteen, jotta lukija saa monipuolisen ja yksinkertaistetun kokonaisuuden rasitusvammojen syntymisestä sekä koneoppimismalleilla ennustamisesta.
 
+Tekoälyä tässä tutkielmassa on käytetty lähteiden ymmärtämiseen ja suomentamiseen. Käytetty kielimalli on Google Gemini Pro. Muuhun, kuten omaan päättelyyn ja johtopäätöksiin, tai muuhun sisällön 
+tuottamiseen ei tekoälyä ole hyödynnetty.
 
 \chapter{Käsitteet}
 
 \section{Rasitusvammat}
+
+Tässä tutkielmassa puhutaan sekä urheiluvammoista että rasitusvammoista. Urheiluvammoilla tarkoitetaan sekä akuutteja että rasitusvammoja.
 
 Rasitusvammat syntyvät ajan myötä, toisin kuin akuutit vammat, jotka syntyvät suoraan tapahtumasta. Rasitusvammoja voi syntyä, kun yksilö altistuu 
 toistuvalle rasitukselle. Kun kehon kudokset kokee liiallista rasitusta, liian vähäistä palautumista tai molempia, kehon kyky palautua ylittyy \parencite{johnson_overuse_2008}.
@@ -81,7 +87,9 @@ tekijöihin eli ympäristöstä johtuviin. Hän mainitsee sisäisiä tekijöitä
 sekä aikaisemmat vammat. Ulkoisia tekijöitä puolestaan ovat esimerkiksi väärät harjoittelumetodit, huonot tekniikat sekä 
 valmentajien tai harjoittelu kavereiden aiheuttama paine. Ulkoisiin tekijöihin yksilön on mahdollista vaikuttaa, toisin kuin sisäisiin tekijöihin.
 
-Nuorten kilpailullinen urheilu on muuttunut yhä vaativammaksi, mikä on johtanut rasitusvammojen yleistymiseen \parencite{weerasinghe_computer_2016}.
+Nuorten kilpailullinen urheilu on muuttunut yhä vaativammaksi, mikä on johtanut rasitusvammojen yleistymiseen \parencite{weerasinghe_computer_2016}. Treenit ovat usein intensiivisiä, 
+ja nuoret urheilijat saattavat altistua liialliselle rasitukselle.
+
 \section{Koneoppimismallit}
 
 Koneoppiminen (engl. Machine Learning) tarkoittaa automatisoitua prosessia, jossa datasta tunnistetaan säännönmukaisuuksia 
@@ -95,33 +103,32 @@ Tässä työssä käsiteltävät menetelmät rajautuvat ohjattuun oppimiseen, si
 Ohjatussa oppimisessa mallille syötetään dataa, jonka lopputulokset tunnetaan. Malli oppii tunnistamaan datasta säännönmukaisuuksia ja oppii näin luokittelemaan tai ennustamaan 
 havaitsemattomia lopputuloksia uudesta datasta \parencite{black_introduction_2023}. Ohjatun oppimisen menetelmiä on useita, joista tässä työssä merkittävimpiä ovat seuraavat:
 
-
-\begin{tabular}{|p{7cm}|p{8cm}|}
+\begin{longtable}{| p{.35\textwidth} | p{.65\textwidth} |}
 \hline
-Algoritmi & Selitys \\ \hline
-Lähimmän naapurin menetelmä (engl. K-Nearest Neighbors, K-NN) & Algoritmia käytetään sekä regressio- että luokitteluongelmien ratkaisemiseen. 
-Käytetään ennustamiseen samankaltaisten tapausten keskiarvon ja mediaanin perusteella sekä laskemaan tulosdata perustuen K-määrän samankaltaisimpien 
-tapausten esiintymistiheyteen \parencite{singh_machine_2021}. \\ \hline
+\textbf{Menetelmä} & \textbf{Selitys} \\ \hline
+Extreme Gradient Boosting (XGBoost) & Koostuu gradienttitehostetuista päätöspuista. Tehostamisen perusideana on rakentaa peräkkäin alipuita alkuperäisestä puusta siten, että jokainen seuraava puu vähentää edellisen puun virheitä \parencite{8906396}. \\ \hline
+Lineaarinen ja logistinen regressio (engl. Linear and logistic regression) & Lineaarinen regressio etsii suoran, joka sopii dataan parhaiten tietyn matemaattisen kriteerin mukaisesti. Logistinen regressio etsii puolestaan dataan parhaiten sopivan viivan sen jälkeen, kun siihen on sovellettu logistista funktiota \parencite{black_introduction_2023}. \\ \hline
+Lähimmän naapurin menetelmä (engl. K-Nearest Neighbors, K-NN) & Algoritmia käytetään sekä regressio- että luokitteluongelmien ratkaisemiseen. Käytetään ennustamiseen samankaltaisten tapausten keskiarvon ja mediaanin perusteella sekä laskemaan tulosdata perustuen K-määrän samankaltaisimpien tapausten esiintymistiheyteen \parencite{singh_machine_2021}. \\ \hline
+Malliyhdistelmät (engl. Ensembles) & Yhdistää useita koneoppimismalleja tehdäkseen luokittelua tai ennustamista. Uudet luokittelut ja ennusteet perustuvat kunkin osamallin antamien ennusteiden yhteisymmärrykseen \parencite{black_introduction_2023}. \\ \hline
+Naiivi Bayes (engl. Naive Bayes) & Perustuu Bayesin teoreemaan ja oletukseen siitä, että mallin kunkin piirteen esiintyminen on riippumatonta muista \parencite{singh_machine_2021}. Se on luokittelija, joka muokkaa alkuperäistä ennakkotodennäköisyyttä sen perusteella, kuinka usein tiettyjä piirteitä havaitaan aineiston tapauksissa \parencite{black_introduction_2023}.\\ \hline
+Neuroverkot (engl. Neural networks) & Järjestetty, toisiinsa kytketty, solmupisteiden kokoelma, joka on jaettuna useisiin kerroksiin. Jokainen solmu vastaanottaa signaalin ja muuntaa sen tulosteeksi. Solmuille määritetään painokertoimet, jotka määräävät, miten ne vaikuttavat lopulliseen tulokseen \parencite{black_introduction_2023}. \\ \hline
 Päätöspuu (engl. Decision trees) & Data jaetaan yhä samankaltaisempiin ryhmiin perustuen muuttujaan, joka maksimoi tuloksena olevien ryhmien samankaltaisuuden. Uudet luokittelut ja ennusteet tehdään arvioimalla uutta yksilöä näiden jakokriteerien mukaisesti \parencite{black_introduction_2023}.\\ \hline
 Satunnaismetsä (engl. Random forest) & Päätöspuihin perustuva ryhmämenetelmä, joka yhdistää useita itsenäisesti satunnaistettuja päätöspuita. Jokainen puu rakennetaan hyödyntämällä satunnaista otantaa ja satunnaisia muuttujajoukoja, mikä varmistaa mallin vakauden ja vähentää virhealttiutta \parencite{breiman_random_2001}. \\ \hline
 Tukivektorikoneet (engl. Support vector machines, SVM) & Malli jakaa havaintoaineiston osiin n-ulotteisen hypertason perusteella. Uudet yksilöt luokitellaan sen mukaan, minkä rajatun alueen sisälle heidän ominaisuutensa osuvat \parencite{black_introduction_2023}.\\ \hline
-Neuroverkot (engl. Neural networks) & - \\ \hline
-Lineaarinen ja logistinen regressio & - \\ \hline
-Naiivi Bayes (engl. Naive Bayes) & - \\ \hline
-Malliyhdistelmät (engl. Ensembles) & - \\ \hline
-\end{tabular}
+    \caption{Ohjatun oppimisen menetelmiä} \label{long}\\
+\end{longtable}
 
 
 \chapter{Rasitusvammojen ennustaminen koneoppimismalleilla}
 
-\section{Käytetyimmät koneoppimismallit ennustamiseen}
+Edellisessä luvussa esiteltiin erilaisia ohjatun oppimisen menetelmiä, joita voidaan hyödyntää ennustamiseen. Menetelmän valitseminen riippuu ennustettavasta ongelmasta, 
+datan luonteesta ja ennustamisen vaatimuksista. 
 
-- Kysymys: miten tämän kappaleen saa järkevästi kytkettyä edelliseen kappaleeseen "ohjattu oppiminen"? Onko yllä oleva taulukko hyvä idea?
+Useat tutkimukset käsittelevät urheiluvammoja yleisellä tasolla, eikä niissä eritellä tarkemmin, onko kyseessä akuutti vai rasitusvamma.
+\textcite{murugan_comparison_2025} tutkimuksessa parhaat tulokset urheiluvammojen ennustamiseen saavutettiin käyttämällä satunnaismetsää ja tukivektorikoneita. 
+\textcite{leckey_machine_2025} systemaattisessa kirjallisuuskatsauksessa parhaiksi algoritmeiksi puolestaan osoittautuivat satunnaismetsät sekä Extreme Gradient Boosting.
 
-
-\section{Urheiluvammojen ennustaminen}
-
-\subsection{Datan keruu ja sen esikäsittely}
+\section{Datan keruu ja sen esikäsittely}
 
 Datan esikäsittely on tärkeää, sillä koneoppimismallit vaativat datan olevan tietyssä muodossa. Monesti urheilijalta kerätty data on esimerkiksi saatua 
 dataa urheilukellosta tai kyselyiden pohjalta saatua dataa. Tästä johtuen dataa on esikäsiteltävä, jotta malli osaa sitä hyödyntää. Saatua dataa muun muassa puhdistetaan, 
@@ -135,17 +142,37 @@ harjoitusten kokonaismäärä), total km (kaikkien harjoitusten aikana kertynyt 
 training (päivän aikana tehty voimaharjoittelun kokonaismäärä). 
 
 \textcite{de_leeuw_personalized_2022} tutkimuksessa puolestaan urheilijat vastasivat päivittäin OSTRC-kyselyyn (engl. Oslo Sports Trauma 
-Research Center questionnaire). 
+Research Center questionnaire). Tutkimuksen kysymykset jakautuivat neljään kategoriaan: 1) Vaikeus osallistua normaaliin harjoitteluun ja kilpailuun, 2) Vähentynyt harjoittelumäärä,
+3) Vaikutus suorituskykyyn ja 4) Koetut oireet/vaivat. Datan analysoimisessa nämä neljä kysymyskategoriaa toimivat vastemuuttujina, joita analysoitiin yksi kerrallaan.
+Ennustemuuttujina käytettiin sisäistä ja ulkoista harjoituskuormitusta sekä koettua hyvinvointia.
 
-\subsection{Algoritmit}
 
-- algoritmit, joita lähteistä löydettiin: Subgroup discovery \parencite{de_leeuw_personalized_2022}. Satunnaismetsä, logistinen regressio ja kNN \parencite{murugan_comparison_2025}
+\section{Rasitusvammojen ennustaminen}
+
+Koneoppimismallien viimeaikainen kehittyminen on avannut uusia ovia monimutkaisten tietoaineistojen analysointiin, mikä mahdollistaa kaavojen löytämisen, 
+joita perinteiset menetelmät saattavat ohittaa \parencite{murugan_comparison_2025}. Nykyisiä koneoppimismenetelmiä voidaan käyttää urheiluvammojen riskitekijöiden 
+havaitsemiseen sekä tunnistamaan urheilijoita, joilla on korkea vammautumisriski \parencite{van_eetvelde_machine_2021}.
+
+\textcite{de_leeuw_personalized_2022} tutkimus esitteli Subgroup discovery -algoritmin rasitusvammojen ennustamiseen. Tutkimuksessa esitelty koneoppimisalgoritmi on ohjatun oppimisen 
+menetelmä, mikä analysoi yksittäisten tai vain muutamien selittävien muuttujien vaikutusta valittuun vastemuuttujaan ja nostaa esiin ainoastaan merkittävimmät selittävät muuttujat. 
+Tämä algoritmi mahdollistaa yksilöllisten yhteyksien havainnoinnin sekä saadut tulokset ovat suoraviivaisia ja helposti yhdistettävissä käytännön treeneihin.
+
+\textcite{InjuryPredictioninCompetitiveRunnersWithMachineLearning} tutkimuksessaan puolestaan esittelivät lähestymistapana Extreme Gradient Boosting -algoritmin ennustamaan urheilijoiden 
+loukkaantumisia. Tutkimuksessa kerrottiin, kuinka akuutit vammat ovat hankalasti ennustettavissa, toisin kuin rasitusvammat. 
+
+Muissa tutkimuksissa ja artikkeleissa, kuten \textcite{murugan_comparison_2025}, \textcite{bhatia_exploring_2024} sekä \textcite{yuan_machine_2026} urheiluvammojen ennustamisesta 
+puhuttiin yleisellä tasolla, mutta ei spesifioitu tarkemmin oliko kyseessä akuutit- vai rasitusvammat. Muun muassa satunnaismetsä, logistinen regressio, Extreme Gradient Boosting 
+ja lähimmän naapurin menetelmä mainittiin toimivina algoritmeina.
 
 \section{Lopputulokset}
 
-- miten paljon koneoppimismalleja hyödynnetty rasitusvammojen ennustamisessa
+Urheiluvammojen ennustamista koneoppimismalleilla on tutkittu lähivuosina enemmän ja enemmän. Kuitenkin rasitusvammojen tutkiminen on jäänyt vähäiseksi. Rsitusvammat 
+syntyvät ajan myötä, tietynlaisesta toistuvasta rasituksesta. Koneoppimismallit puolestaan tunnistavat datasta toistuvia kuvioita ja oppivat näin ennustamaan uudesta datasta 
+lopputuloksia. Näin ollen koneoppimismallien hyödyntämistä rasitusvammojen ennustamiseen tulisi tutkia enemmän tulevaisuudessa, sillä kuten alussa mainittiin nuorten rasitusvammojen 
+yleistyminen on kasvava huolenaihe.
 
-- onko niistä mitä hyötyä
+Lopputuloksena voidaan todeta, että koneoppimismallit auttavat tunnistamaan yksilöllisiä riskitekijöitä, jotka johtavat rasitusvammoihin. Näiden riskitekijöiden tunnistaminen 
+mahdollistaa ennaltaehkäisemään jo alkuvaiheessa olevia rasitusvammoja.
 
 \chapter{Yhteenveto}
 
@@ -158,6 +185,8 @@ Lopussa yhteenvedossa tulee ilmi tiivis kokonaisuus juuri kertomistani asioista.
 
 Tutkielaman aiheesta ei kovin paljoa tutkimusta löydy. Aihe on kuitenkin hyvin tuore ja varmasti lisää tutkimusta tulevaisuudessa tehdään. 
 Koneopimismallit kehittyvät jatkuvasti ja sitä myöten tutkimukset siitä kuinka niitä voidaan ennustamiseen hyödyntää, lisääntyvät.
+
+KYSYMYS: Tuntuu, että olisi fikusa olla yhteenveto ja johtopäätökset, mutta jotenkin jumitun siihen, että miten ne tulisi koota. Onko tähän jotain hyviä konkreettisia vinkkejä tai tulisiko ne vaan yhdistää yhdeksi?
 
 \printbibliography
 
